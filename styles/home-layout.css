@@ -1,0 +1,195 @@
+.home-layout {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.home-layout > div {
+  border-radius: 15px;
+}
+
+.averages-container {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  background-color: white;
+  border: 1px solid var(--blue-100);
+}
+
+.average-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.average-box h2 {
+  margin-bottom: 13px;
+  font-size: 18px;
+  color: var(--neutral-900);
+  font-weight: 600;
+}
+
+.average-box span {
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 7px;
+  color: var(--neutral-900);
+}
+
+.box {
+  width: 100%;
+  height: 150px;
+  background-color: var(--blue-100);
+  border-radius: 15px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-image: url("/assets/images/bg-pattern-averages.svg");
+  background-size: auto;
+  background-position: calc(100% + 180px) center;
+  background-repeat: no-repeat;
+}
+
+.box h3 {
+  font-size: 23px;
+  color: var(--neutral-900);
+  font-weight: 600;
+}
+
+.box p {
+  font-size: 14px;
+  line-height: 40px;
+  color: var(--neutral-600);
+}
+
+.grafic-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid var(--blue-100);
+}
+
+.grafic-container h2 {
+  font-size: 25px;
+  color: var(--neutral-900);
+  font-weight: 700;
+}
+
+#chart {
+  max-width: 618px;
+  height: 380px;
+}
+
+.mood-container {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr ;
+  grid-template-rows: 100px 180px; 
+  gap: 30px;
+}
+
+
+.mood-container > div {
+  background-color: #fff;
+  border-radius: 15px;
+  border: 1px solid var(--blue-100);
+}
+
+.mood-container > div:nth-child(1) {
+  grid-row: span 2;
+}
+
+/* boxFeeling */
+
+.boxFeeling {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  background-image: url(/assets/images/icon-very-happy-color.svg);
+  background-size: auto 95%; /* aumenta a altura da imagem */
+  background-repeat: no-repeat;
+  background-position: calc(100% - 40px) 40px; /* ajusta verticalmente */
+}
+
+.boxFeeling div:nth-child(1) > p {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--neutral-600);
+}
+
+.boxFeeling div:nth-child(1) > h1 {
+  font-size: 33px;
+  color: var(--neutral-900);
+}
+
+.boxFeeling div:nth-child(2) > p {
+  font-size: 17px;
+  color: var(--neutral-900);
+  max-width: 270px;
+  font-family: 'Reddit Italic';
+}
+
+.boxFeeling div:nth-child(2) >img {
+  width: 20px;
+}
+
+/* boxSleep */
+
+.boxSleep {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+}
+
+.boxSleep > h1 {
+  font-size: 25px;
+  color: var(--neutral-900);
+}
+
+.boxSleep > p {
+  color: var(--neutral-600);
+  display: flex;
+  gap: 7px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/*boxReflection*/
+.boxReflection {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.boxReflection > div > h1 {
+display: flex;
+gap: 7px;
+color: var(--neutral-600);
+}
+
+.boxReflection > div > p {
+line-height: 40px;
+font-weight: 500;
+color: var(--neutral-900);
+}
+
+.Keywords {
+  display: flex;
+  gap: 10px;
+}
+
+.Keywords > span {
+  font-family: 'Reddit Italic';
+  color: var(--neutral-600);
+  font-weight: 500;
+}
+
+/* TODO: Otimizar css para facilitar futuras manutenções */

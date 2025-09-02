@@ -1,0 +1,83 @@
+.home-container {
+  padding: 50px 400px 50px 400px;
+  position: relative;
+}
+
+.header-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 160px;
+}
+
+.user {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.bx {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.header-home > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.daily-greeting-container {
+  display: flex;
+  justify-content: center;
+}
+
+.daily-greeting {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.daily-greeting h1 {
+  color: var(--blue-600);
+  font-size: 28px;
+}
+
+.daily-greeting h2 {
+  color: var(--neutral-900);
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 65px;
+}
+
+time {
+  color: var(--neutral-600);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+input {
+  padding: 14px 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+ .logmood-btn {
+  background-color: var(--blue-600);
+  color: white;
+  margin-top: 40px;
+} 
+
+.logmood-btn:hover {
+  background-color: var(--blue-700);
+  transition: 0.3s;
+}
+
+/* TODO: Otimizar css para facilitar futuras manutenções */
+
+

@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Reddit';
+  src: url('/assets/fonts/Reddit_Sans/RedditSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Reddit Italic';
+  src: url('/assets/fonts/Reddit_Sans/RedditSans-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Reddit';
+}
+
+body,html {
+  background: linear-gradient(180deg, #f5f5ff 72.99%, #e0e0ff 100%);
+  min-height: 100vh;
+}
+
+ul,li {
+    list-style: none;
+}
+
+:root {
+  --bg-color: #fff;
+  --blue-700: #2a4cd5;
+  --blue-600: #4865db;
+  --blue-200: #c7d3f7;
+  --blue-100: #e0e6fa;
+  --neutral-900: #21214d;
+  --neutral-600: #57577b;
+  --neutral-300: #9393b7;
+  --neutral-200: #cbcdd0;
+}
+
+.checkbox-wrapper * {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-wrapper label {
+  --size: 20px;
+  --shadow: calc(var(--size) * .07) calc(var(--size) * .1);
+  position: relative;
+  display: flex;
+  width: var(--size);
+  height: var(--size);
+  margin: 0 auto;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  border-radius: 50%;
+  box-shadow: 0 var(--shadow) #ffbeb8;
+  cursor: pointer;
+  transition: 0.2s ease transform, 0.2s ease background-color,
+      0.2s ease box-shadow;
+  overflow: hidden;
+  z-index: 1;
+}
+
+
