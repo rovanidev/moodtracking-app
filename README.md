@@ -26,5 +26,7 @@ Funcionalidades Planejadas:
 -Análise de padrões e gatilhos
 
 
+![Protótipo do Mood Tracker](prototype/prototype-img.png)
+![Protótipo do Mood Tracker](prototype/prototype-img(2).png)
 ![Protótipo do Mood Tracker](prototype/prototype-img(3).png)
 
