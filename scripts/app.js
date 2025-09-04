@@ -114,7 +114,7 @@ exitProfile.addEventListener('click', () => {
 
 
 
-//TODO: Estudar sobre boas práticas no JS para uma organização e código mais limpo
+
 
 
 
