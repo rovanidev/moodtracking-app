@@ -28,6 +28,22 @@ function CheckBox2On() {
     return checkboxon
 }
 
+function CheckBox3On() {
+
+    const checkboxon = document.querySelector('.checkbox3.on')
+
+    if (checkboxon) {
+            continueBtn.style.backgroundColor = '#4865db'
+            continueBtn.style.cursor = 'pointer';
+        } else {
+            continueBtn.style.backgroundColor = '#c7d3f7'
+            continueBtn.style.cursor = 'default';
+        }
+
+    return checkboxon
+}
+
+
 
 function Write() {
     const message = document.getElementById('message')

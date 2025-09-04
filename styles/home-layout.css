@@ -86,10 +86,11 @@
 
 .mood-container {
   grid-column: span 2;
-  display: grid;
+  display: none;
   grid-template-columns: 1.5fr 1fr ;
   grid-template-rows: 100px 180px; 
   gap: 30px;
+  
 }
 
 

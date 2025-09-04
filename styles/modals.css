@@ -41,12 +41,12 @@
 
 .updateProfile-container ul>li>h1 {
   font-size: 28px;
+  line-height: 20px;
   color: var(--neutral-900);
 }
 
 .updateProfile-container ul>li>p {
   font-size: 14px;
-  line-height: 40px;
   color: var(--neutral-600);
 }
 
@@ -119,6 +119,27 @@
 .signup-btn:hover {
   background-color: var(--blue-700);
   transition: 0.3s;
+}
+
+.exitProfile {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.exitProfile img {
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+  
+}
+
+.exitProfile:hover {
+  position: absolute;
+  right: 5px;
+  transition: 0.3s;
+  
 }
 
 /* LOG YOUR MOOD */
@@ -385,7 +406,21 @@ textarea {
   background-position: center;
   background-size: contain;
   transition: 0.07s;
-background-color: var(--blue-600);
-border: none;
-  
+  background-color: var(--blue-600);
+  border: none;
+
+}
+
+.checkbox3 {
+  width: 20px;
+  height: 20px;
+  background-color: pink;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid var(--blue-100);
+}
+
+.checkbox3.on {
+  border: 5px solid var(--blue-600);
+  transition: 0.07s;
 }
